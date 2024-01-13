@@ -1,0 +1,141 @@
+body{
+    background-color: white; /* the whole background of the website is white */
+}
+
+header{
+    display: flex;
+    background-color:#1F2937;
+    padding: 10px; /*those padding were used so that the website section can have the same color stretched */
+    margin-top: -10px;
+    margin-left: -10px;
+    margin-right: -10px;
+    color: #f9faf8;
+}
+
+header h3{
+    flex: 1; /* display the flex box */
+    font-size: 24px;
+    padding-left: 135px; /*search more about percentage rather than this */
+}
+
+header ul{
+    display:flex;
+    list-style: none; /*removes underscore and other elements */
+    padding-right: 180px;
+    padding-top: 15px;
+}
+
+header ul li a{
+    padding: 10px;
+    font-size: 16px;
+    color: #f9faf8;
+    text-decoration: none; 
+}
+
+.container{
+    background-color:#1F2937;
+    display: flex;
+    margin-left: -10px;
+    margin-right: -10px;
+    padding: 10px;
+}
+
+section{
+    flex: 1;
+    float: left;
+    padding-left: 150px;
+}
+
+section h1{
+    font-size: 48px;
+    color: #F9FAF8;
+}
+
+section p{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+section button{
+    color: #E5E7EB;
+    background-color: #3882f6;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.container .first-image img{ /* we need to put it in a container dev */
+    float: right;
+    width: 450px;
+    height: 250px;
+    margin-top: 50px;
+    padding-right: 200px;
+    margin-bottom: 50px;
+    padding-left: 100px;
+}
+
+.container2{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.image-containers{
+    display: flex; /*display flexbox */
+    justify-content: space-between; /*makes the space between each image equal */
+}
+
+.image-box{
+    width: 23%; /* This allows for approximately 4% spacing between each box. Adjust as necessary. */
+    text-align: center;
+}
+
+.image-box img{
+    width: 100%; /* Makes the image take up the full width of its parent div */
+    height: auto; /* maintain the image aspect ratio */
+    display: block; /* remove any default space around the image */
+}
+
+.image-box p {
+    word-wrap: break-word; /* Wraps the text to fit the width of the box */
+    margin-top: 10px;      /* Provides spacing between the image and the subtext */
+}
+
+.container3{
+    background-color: #E5E7EB;
+    padding: 10%;
+    display: block;
+}
+
+.container3 p{
+    font-size: 20px;
+    color: #1F2937;
+    text-align: center;
+    font-style: italic;
+}
+.container3 .quote p{
+    font-weight: bold;
+    font-size: 10px;
+    color: #1F2937;
+}
+
+.container4{
+    display: flex;
+    justify-content: center;
+    padding: 5%;
+}
+
+.container4 .small-container{
+    background-color: #3882f6;
+    color: #F9FAF8;
+    width:font-size: 12px; 50%;
+}
+
+.footer{
+    background-color: #1F2937;
+    color: #E5E7EB;
+    text-align: center;
+    padding:2%
+}
+.footer h3{
+    font-size: 12px;
+}
